@@ -26,11 +26,9 @@ const Footer = () => {
   ];
 
   const socialLinks = [
-    { icon: Facebook, href: "#", label: "Facebook" },
-    { icon: Instagram, href: "#", label: "Instagram" },
-    { icon: Linkedin, href: "#", label: "LinkedIn" },
-    { icon: Twitter, href: "#", label: "Twitter" },
-    { icon: Youtube, href: "#", label: "YouTube" },
+    { icon: Instagram, href: "https://www.instagram.com/dr_labeeb_academy/", label: "Instagram" },
+    { icon: Linkedin, href: "https://om.linkedin.com/in/dr-labeeb-zeeshan-62245a48", label: "LinkedIn" },
+    { icon: Youtube, href: "https://www.youtube.com/@labeeb1402", label: "YouTube" },
   ];
 
   return (
@@ -124,7 +122,7 @@ const Footer = () => {
             </ul>
 
             <div className="pt-4">
-              <h5 className="font-semibold mb-3">Connect With Us</h5>
+              <h5 className="font-semibold mb-3">Connect with us</h5>
               <div className="flex space-x-3">
                 {socialLinks.map((social) => {
                   const Icon = social.icon;
@@ -132,6 +130,8 @@ const Footer = () => {
                     <a
                       key={social.label}
                       href={social.href}
+                      target="_blank"
+                      rel="noopener noreferrer"
                       className="w-8 h-8 rounded-full bg-muted hover:bg-primary hover:text-primary-foreground transition-colors flex items-center justify-center"
                       aria-label={social.label}
                     >
@@ -171,7 +171,7 @@ const Footer = () => {
 
         <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
           <div className="text-sm text-muted-foreground">
-            © 2024 Dr. Labeeb Academy - Labeeb Management Consultants SPC. All rights reserved.
+            © 2025 Dr. Labeeb Academy - Labeeb Management Consultants SPC. All rights reserved.
           </div>
           <div className="flex space-x-6 text-sm">
             <a href="#privacy" className="text-muted-foreground hover:text-foreground transition-colors">

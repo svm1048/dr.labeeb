@@ -41,24 +41,26 @@ const Hero = () => {
                 Explore Courses
                 <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
               </Button>
-              <Button variant="outline" size="lg" className="group">
-                <Play className="mr-2 h-4 w-4" />
-                Watch Demo
+              <Button variant="outline" size="lg" className="group" asChild>
+                <a href="https://www.youtube.com/@labeeb1402" target="_blank" rel="noopener noreferrer">
+                  <Play className="mr-2 h-4 w-4" />
+                  Watch Demo
+                </a>
               </Button>
             </div>
 
             {/* Stats */}
             <div className="grid grid-cols-3 gap-8 pt-8">
               <div className="text-center">
-                <div className="text-2xl font-bold text-primary">5000+</div>
+                <div className="text-2xl font-bold text-primary">200+</div>
                 <div className="text-sm text-muted-foreground">Students</div>
               </div>
               <div className="text-center">
-                <div className="text-2xl font-bold text-secondary">95%</div>
+                <div className="text-2xl font-bold text-secondary">75%+</div>
                 <div className="text-sm text-muted-foreground">Success Rate</div>
               </div>
               <div className="text-center">
-                <div className="text-2xl font-bold text-accent">50+</div>
+                <div className="text-2xl font-bold text-accent">13+</div>
                 <div className="text-sm text-muted-foreground">Countries</div>
               </div>
             </div>
