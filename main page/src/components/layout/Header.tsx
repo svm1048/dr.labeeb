@@ -62,7 +62,7 @@ const Header = () => {
               </a>
             ))}
             <Button asChild variant="hero" size="sm">
-              <a href="/login.html">Student Login</a>
+              <a href="/Users/ithan/Documents/GitHub/dr.labeeb/login.html">Student Login</a>
             </Button>
           </nav>
           {/* Mobile menu button */}
@@ -89,7 +89,7 @@ const Header = () => {
                 </a>
               ))}
               <Button asChild variant="hero" size="sm" className="self-start">
-                <a href="/login.html">Student Login</a>
+                <a href="/Users/ithan/Documents/GitHub/dr.labeeb/login.html">Student Login</a>
               </Button>
             </div>
           </nav>
