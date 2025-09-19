@@ -61,7 +61,7 @@ const Footer = () => {
             <div className="space-y-2">
               <div className="flex items-center space-x-2 text-sm">
                 <Phone className="h-4 w-4 text-primary" />
-                <span>+968 50 123 4567</span>
+                <span>+968 9200 2435</span>
               </div>
               <div className="flex items-center space-x-2 text-sm">
                 <Mail className="h-4 w-4 text-primary" />
@@ -153,16 +153,6 @@ const Footer = () => {
             <div className="space-y-3">
               <Input placeholder="Enter your email" />
               <Button className="w-full">Subscribe</Button>
-            </div>
-
-            <div className="pt-4">
-              <h5 className="font-semibold mb-3 text-sm">Accreditations</h5>
-              <div className="space-y-2 text-xs text-muted-foreground">
-                <p>• ACCA Approved Learning Partner</p>
-                <p>• IMA Authorized Training Provider</p>
-                <p>• IIA Certified Training Partner</p>
-                <p>• CFA Institute Prep Provider</p>
-              </div>
             </div>
           </div>
         </div>

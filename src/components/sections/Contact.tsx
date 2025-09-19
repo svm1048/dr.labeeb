@@ -31,7 +31,7 @@ const Contact = () => {
     {
       icon: Phone,
       title: "Phone",
-      details: ["+971 50 123 4567", "+971 4 567 8900"],
+      details: ["+968 9200 2435"],
       color: "primary"
     },
     {
@@ -39,12 +39,6 @@ const Contact = () => {
       title: "Email",
       details: ["info@drlabeebacademy.com", "admissions@drlabeebacademy.com"],
       color: "secondary"
-    },
-    {
-      icon: MapPin,
-      title: "Address",
-      details: ["Dubai, UAE", "Global Online Campus"],
-      color: "accent"
     },
     {
       icon: Clock,

@@ -25,10 +25,10 @@ const About = () => {
   ];
 
   const achievements = [
-    { number: "15+", label: "Years of Excellence" },
-    { number: "5000+", label: "Successful Students" },
-    { number: "95%", label: "Pass Rate" },
-    { number: "50+", label: "Countries Served" }
+    { number: "30+", label: "Years of Excellence" },
+    { number: "100+", label: "Successful Students and affiliates" },
+    { number: "85%", label: "Pass Rate" },
+    { number: "12+", label: "Countries Served" }
   ];
 
   const features = [
@@ -90,7 +90,7 @@ const About = () => {
               </h3>
               <p className="text-muted-foreground leading-relaxed">
                 Dr. Labeeb Academy, under Labeeb Management Consultants SPC, has been 
-                at the forefront of professional education for over 15 years. We specialize 
+                at the forefront of professional education for over 30 years. We specialize 
                 in delivering world-class financial certification programs and management 
                 consultancy services to professionals worldwide.
               </p>

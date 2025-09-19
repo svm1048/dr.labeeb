@@ -56,11 +56,11 @@ const Hero = () => {
                 <div className="text-sm text-muted-foreground">Students</div>
               </div>
               <div className="text-center">
-                <div className="text-2xl font-bold text-secondary">75%+</div>
+                <div className="text-2xl font-bold text-secondary">85%+</div>
                 <div className="text-sm text-muted-foreground">Success Rate</div>
               </div>
               <div className="text-center">
-                <div className="text-2xl font-bold text-accent">13+</div>
+                <div className="text-2xl font-bold text-accent">12+</div>
                 <div className="text-sm text-muted-foreground">Countries</div>
               </div>
             </div>
