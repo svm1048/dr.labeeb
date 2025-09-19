@@ -61,11 +61,10 @@ const Header = () => {
                 {item.name}
               </a>
             ))}
-            <Button variant="hero" size="sm">
-              Student Login
+            <Button asChild variant="hero" size="sm">
+              <a href="/login.html">Student Login</a>
             </Button>
           </nav>
-
           {/* Mobile menu button */}
           <button
             className="md:hidden"
@@ -89,8 +88,8 @@ const Header = () => {
                   {item.name}
                 </a>
               ))}
-              <Button variant="hero" size="sm" className="self-start">
-                Student Login
+              <Button asChild variant="hero" size="sm" className="self-start">
+                <a href="/login.html">Student Login</a>
               </Button>
             </div>
           </nav>
